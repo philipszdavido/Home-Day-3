@@ -16,16 +16,16 @@ My Home Day 3 assignments from Andela Bootcamp Cycle XIX
 <ul>
 <li>binarySearch Lab test spec and program</li>
 <li>findMissing Lab test spec and program</li>
-<li>command-line application that consume Public API using HTTP Client Library</li>
+<li>A simple user interface created using HTML and CSS.</li>
 </ul>
 
 These programs follows Test-Driven Development (TDD) process and the tool used is Jasmine.
 
 <b>Program files:</b>
 <ul>
-<li>wordCount</li>
-<li>reverseString</li>
-<li>Command-Line App</li>
+<li>binarySearch</li>
+<li>findMissing</li>
+<li>HTML User Interface</li>
 </ul>
 The program files are contained in these folders: <code>wordCount</code>,<code>reverseString</code>,<code>Command-Line App</code> are contained in the spec folder inside each program folder.
 
