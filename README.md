@@ -27,7 +27,7 @@ These programs follows Test-Driven Development (TDD) process and the tool used i
 <li>findMissing</li>
 <li>HTML User Interface</li>
 </ul>
-The program files are contained in these folders: <code>wordCount</code>,<code>reverseString</code>,<code>Command-Line App</code> are contained in the spec folder inside each program folder.
+The program files are contained in these folders: <code>binarySearch</code>,<code>findMissing</code>,<code>HTML User Interface</code> are contained in the spec folder inside each program folder.
 
 <b>How to run tests</b>
 <ul>
