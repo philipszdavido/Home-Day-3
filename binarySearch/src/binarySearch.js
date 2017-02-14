@@ -31,7 +31,9 @@ Array.prototype.toOneThousand = function() {
   return tenToOneThousand;
 };
 
-Array.prototype.search = function (n) {
+Array.prototype.search = function (n) {//defined my search function here.
+  //checks if the parameter n is a number object.
+  if(typeof(n)=="number"){
   /*
  * Binary search implementation to return
  * {count : c, index: i, length: n}
@@ -92,4 +94,7 @@ Array.prototype.search = function (n) {
   }
   search.index = -1;
   return search;
+}else{
+  return "Please, input a number.";
+}
 };
