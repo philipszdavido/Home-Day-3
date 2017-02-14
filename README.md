@@ -14,8 +14,8 @@ My Home Day 3 assignments from Andela Bootcamp Cycle XIX
 
 <b>Contains:</b>
 <ul>
-<li>wordCount Lab test spec and program</li>
-<li>reverseString Lab test spec and program</li>
+<li>binarySearch Lab test spec and program</li>
+<li>findMissing Lab test spec and program</li>
 <li>command-line application that consume Public API using HTTP Client Library</li>
 </ul>
 
