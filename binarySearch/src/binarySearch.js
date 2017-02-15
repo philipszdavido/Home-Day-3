@@ -95,6 +95,6 @@ Array.prototype.search = function (n) {//defined my search function here.
   search.index = -1;
   return search;
 }else{
-  return "Please, input a number.";
+  return "Please, Input a number.";
 }
 };
