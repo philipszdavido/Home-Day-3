@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Andela Bootcamp XIX</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +24,12 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
     <script type="text/javascript">
+    window.addEventListener("load",loadFunction);
+    function loadFunction(){
+     $("#likeModalLabel").html("<div class='panel panel-primary'><div class='panel-heading'><h3 class='panel-title'>WELCOME</h3></div></div>");
+     $("#likeModal .modal-body").html("<div class='panel panel-success'><div class='panel-body'><b>THIS IS MY HTML/CSS SIMPLE USER INTERFACE FOR ANDELA BOOTCAMP XIX BOOTCAMP DAY 3 QUESTION.</b></div></div>"); 
+     $("#likeModal").modal("show");   
+      }
     function like(name){
       if(typeof(name)=="string"){
         if(name=="#contact"){
@@ -86,10 +92,9 @@
           <cite title="Source Title">Jeremy Johnson - CEO and Co-Founder Andela</cite>
           </small>
         </blockquote>
-       <p><a class="btn btn-primary btn-lg" href="#" role="button" onclick="like(1)">Learn more &raquo;</a></p>
+       <p><a class="btn btn-primary btn-lg" href="#" role="button" onclick="like(1)">Click Me To Learn more &raquo;</a></p>
       </div>
     </div>
-
     <div class="container">
 <div class="col-sm-4 col-md-3">
   <div class="thumbnail">
@@ -156,24 +161,24 @@
 <!-- Modal -->
 <div class="modal fade" id="likeModal" tabindex="-1" role="dialog"
 aria-labelledby="likeModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal"
-aria-hidden="true">×
-</button>
-<h4 class="modal-title" id="likeModalLabel">
-</h4>
-</div>
-<div class="modal-body">
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-primary"
-data-dismiss="modal">OK
-</button>
-</div>
-</div><!-- /.modal-content -->
-</div><!-- /.modal-dialog -->
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"
+      aria-hidden="true">×
+      </button>
+        <h4 class="modal-title" id="likeModalLabel">
+        </h4>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary"
+        data-dismiss="modal">OK
+        </button>
+      </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
 
@@ -184,29 +189,29 @@ data-dismiss="modal">OK
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
 aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal"
-aria-hidden="true">×
-</button>
-<h4 class="modal-title" id="myModalLabel">
-Chidume Nnamdi
-</h4>
-</div>
-<div class="modal-body">
-This is my Home Day 3 HTML/CSS User Interface at Andela Bootcamp</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-primary"
-data-dismiss="modal">OK
-</button>
-</div>
-</div><!-- /.modal-content -->
-</div><!-- /.modal-dialog -->
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"
+        aria-hidden="true">×
+        </button>
+          <h4 class="modal-title" id="myModalLabel">
+          Chidume Nnamdi
+          </h4>
+          </div>
+        <div class="modal-body">
+        This is my Home Day 3 HTML/CSS User Interface at Andela Bootcamp</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"
+          data-dismiss="modal">OK
+          </button>
+        </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
       <footer>
-            <p>&copy; 2017 <code>CHIDUME NNAMDI PHILIP-DAVID</code> - Software Developer at Andela.</p>
+            <p><b>&copy; 2017 <code>CHIDUME NNAMDI PHILIP-DAVID</code> - Software Developer at Andela.</b></p>
       
       </footer>
 
